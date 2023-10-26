@@ -41,6 +41,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Objects;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -204,7 +205,7 @@ public class DangKy extends AppCompatActivity {
         }
 
         for (NguoiDung nguoiDung: list) {
-            if (nguoiDung.getUsername().equals(textinputEdittextUsername.getText().toString())) {
+            if (Objects.equals(nguoiDung.getUsername(), textinputEdittextUsername.getText().toString())) {
                 textinputLayoutUsername.setError("Tên đăng nhập đã tồn tại");
                 textinputLayoutUsername.requestFocus();
                 return;

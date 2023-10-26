@@ -50,7 +50,7 @@
                         android:id="@+id/tvName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="1222222222222222222"
+                        tools:text="1222222222222222222"
                         android:textStyle="bold"
                         android:textSize="25dp"/>
 
@@ -58,7 +58,7 @@
                         android:id="@+id/tvAuthor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Tác giả: Phạm Gia Công"
+                        tools:text="Tác giả: "
                         android:layout_marginTop="20dp"
                         android:textSize="15dp" />
 
@@ -66,7 +66,7 @@
                         android:id="@+id/tvYear"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Phát hành: 2020"
+                        tools:text="Phát hành: 2020"
                         android:layout_marginTop="5dp"
                         android:textSize="15dp"
                         android:textColor="@color/black" />
@@ -88,36 +88,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="11111111111111111111111111111111111111"
+                tools:text="11111111111111111111111111111111111111"
                 android:textSize="15dp"/>
-
-
-<!--            <LinearLayout-->
-<!--                android:id="@+id/btnLike"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/border"-->
-<!--                android:orientation="horizontal"-->
-<!--                android:layout_marginTop="50dp"-->
-<!--                android:padding="10dp"-->
-<!--                android:gravity="center">-->
-
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:text="Yêu thích"/>-->
-
-<!--                <ImageView-->
-<!--                    android:layout_width="18dp"-->
-<!--                    android:layout_height="18dp"-->
-<!--                    android:src="@drawable/heart2"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_marginLeft="10dp"/>-->
-
-<!--            </LinearLayout>-->
-
 
             <LinearLayout
                 android:id="@+id/btnComment"
@@ -146,32 +118,6 @@
                     android:layout_marginLeft="10dp"/>
 
             </LinearLayout>
-
-<!--            <LinearLayout-->
-<!--                android:id="@+id/btnShare"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/border"-->
-<!--                android:orientation="horizontal"-->
-<!--                android:layout_marginTop="15dp"-->
-<!--                android:padding="10dp"-->
-<!--                android:gravity="center">-->
-
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:text="Chia sẻ"/>-->
-
-<!--                <ImageView-->
-<!--                    android:layout_width="18dp"-->
-<!--                    android:layout_height="18dp"-->
-<!--                    android:src="@drawable/share"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:layout_marginLeft="10dp"/>-->
-
-<!--            </LinearLayout>-->
 
         </LinearLayout>
 

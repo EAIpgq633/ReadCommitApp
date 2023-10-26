@@ -89,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="Full name:"/>
+                tools:text="Full name:"/>
 
             <View
                 android:layout_width="match_parent"
@@ -105,7 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="Email: 1243"/>
+                tools:text="Email: 1243"/>
 
             <View
                 android:layout_width="match_parent"
